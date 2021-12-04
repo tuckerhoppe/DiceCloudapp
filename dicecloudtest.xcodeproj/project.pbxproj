@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68C9C7F859C4C2EA85B55E92 /* Pods_dicecloudtestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF7C468FB2C04CCE14499C2 /* Pods_dicecloudtestTests.framework */; };
+		736662F6182FBF7E913983F4 /* Pods_dicecloudtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4412434A1EB7EDD71D094AB2 /* Pods_dicecloudtest.framework */; };
+		E6B32CC3A9FBF9FDDF2597B4 /* Pods_dicecloudtest_dicecloudtestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D29AC577F6AB099ECE4A0C /* Pods_dicecloudtest_dicecloudtestUITests.framework */; };
 		FEDC426B273C794D0065E841 /* dicecloudtestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC426A273C794D0065E841 /* dicecloudtestApp.swift */; };
 		FEDC426D273C794D0065E841 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC426C273C794D0065E841 /* ContentView.swift */; };
 		FEDC426F273C794F0065E841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDC426E273C794F0065E841 /* Assets.xcassets */; };
@@ -14,6 +17,12 @@
 		FEDC427C273C794F0065E841 /* dicecloudtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC427B273C794F0065E841 /* dicecloudtestTests.swift */; };
 		FEDC4286273C794F0065E841 /* dicecloudtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC4285273C794F0065E841 /* dicecloudtestUITests.swift */; };
 		FEDC4288273C794F0065E841 /* dicecloudtestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC4287273C794F0065E841 /* dicecloudtestUITestsLaunchTests.swift */; };
+		FEDC4295273C90B60065E841 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEDC4294273C90B60065E841 /* GoogleService-Info.plist */; };
+		FEDC4298273C94E90065E841 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FEDC4297273C94E90065E841 /* FirebaseDatabase */; };
+		FEDC429A273C94E90065E841 /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FEDC4299273C94E90065E841 /* FirebaseDatabaseSwift-Beta */; };
+		FEDC429C273C94E90065E841 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = FEDC429B273C94E90065E841 /* FirebaseFirestoreSwift-Beta */; };
+		FEDC429E273C94E90065E841 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = FEDC429D273C94E90065E841 /* FirebaseFunctionsCombine-Community */; };
+		FEDC42A0273DF0680065E841 /* UIApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC429F273DF0680065E841 /* UIApplicationDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		125A99C896D85F8EB1C94A63 /* Pods-dicecloudtest-dicecloudtestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicecloudtest-dicecloudtestUITests.debug.xcconfig"; path = "Target Support Files/Pods-dicecloudtest-dicecloudtestUITests/Pods-dicecloudtest-dicecloudtestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30FE793027E927DF1833C74E /* Pods-dicecloudtest-dicecloudtestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicecloudtest-dicecloudtestUITests.release.xcconfig"; path = "Target Support Files/Pods-dicecloudtest-dicecloudtestUITests/Pods-dicecloudtest-dicecloudtestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E47C82A23C3A019650507C3 /* Pods-dicecloudtestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicecloudtestTests.debug.xcconfig"; path = "Target Support Files/Pods-dicecloudtestTests/Pods-dicecloudtestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4412434A1EB7EDD71D094AB2 /* Pods_dicecloudtest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dicecloudtest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		558D87BF5AF2749EDB16B8C3 /* Pods-dicecloudtestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicecloudtestTests.release.xcconfig"; path = "Target Support Files/Pods-dicecloudtestTests/Pods-dicecloudtestTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BF7C468FB2C04CCE14499C2 /* Pods_dicecloudtestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dicecloudtestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D95DB4F4FA4C0B19A996DE /* Pods-dicecloudtest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicecloudtest.release.xcconfig"; path = "Target Support Files/Pods-dicecloudtest/Pods-dicecloudtest.release.xcconfig"; sourceTree = "<group>"; };
+		B82E15BAD2FD31EEE1FE6DE5 /* Pods-dicecloudtest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dicecloudtest.debug.xcconfig"; path = "Target Support Files/Pods-dicecloudtest/Pods-dicecloudtest.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D29AC577F6AB099ECE4A0C /* Pods_dicecloudtest_dicecloudtestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dicecloudtest_dicecloudtestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDC4267273C794D0065E841 /* dicecloudtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dicecloudtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDC426A273C794D0065E841 /* dicecloudtestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicecloudtestApp.swift; sourceTree = "<group>"; };
 		FEDC426C273C794D0065E841 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +62,8 @@
 		FEDC4281273C794F0065E841 /* dicecloudtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dicecloudtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDC4285273C794F0065E841 /* dicecloudtestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicecloudtestUITests.swift; sourceTree = "<group>"; };
 		FEDC4287273C794F0065E841 /* dicecloudtestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dicecloudtestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEDC4294273C90B60065E841 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FEDC429F273DF0680065E841 /* UIApplicationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEDC429C273C94E90065E841 /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				FEDC429A273C94E90065E841 /* FirebaseDatabaseSwift-Beta in Frameworks */,
+				FEDC4298273C94E90065E841 /* FirebaseDatabase in Frameworks */,
+				FEDC429E273C94E90065E841 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				736662F6182FBF7E913983F4 /* Pods_dicecloudtest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C9C7F859C4C2EA85B55E92 /* Pods_dicecloudtestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +91,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6B32CC3A9FBF9FDDF2597B4 /* Pods_dicecloudtest_dicecloudtestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		078DBF775D4FA90BAB1B97C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4412434A1EB7EDD71D094AB2 /* Pods_dicecloudtest.framework */,
+				E1D29AC577F6AB099ECE4A0C /* Pods_dicecloudtest_dicecloudtestUITests.framework */,
+				5BF7C468FB2C04CCE14499C2 /* Pods_dicecloudtestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75204D8DE9239C9893C1EFC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B82E15BAD2FD31EEE1FE6DE5 /* Pods-dicecloudtest.debug.xcconfig */,
+				B4D95DB4F4FA4C0B19A996DE /* Pods-dicecloudtest.release.xcconfig */,
+				125A99C896D85F8EB1C94A63 /* Pods-dicecloudtest-dicecloudtestUITests.debug.xcconfig */,
+				30FE793027E927DF1833C74E /* Pods-dicecloudtest-dicecloudtestUITests.release.xcconfig */,
+				3E47C82A23C3A019650507C3 /* Pods-dicecloudtestTests.debug.xcconfig */,
+				558D87BF5AF2749EDB16B8C3 /* Pods-dicecloudtestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FEDC425E273C794D0065E841 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +128,8 @@
 				FEDC427A273C794F0065E841 /* dicecloudtestTests */,
 				FEDC4284273C794F0065E841 /* dicecloudtestUITests */,
 				FEDC4268273C794D0065E841 /* Products */,
+				75204D8DE9239C9893C1EFC2 /* Pods */,
+				078DBF775D4FA90BAB1B97C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				FEDC426A273C794D0065E841 /* dicecloudtestApp.swift */,
+				FEDC4294273C90B60065E841 /* GoogleService-Info.plist */,
+				FEDC429F273DF0680065E841 /* UIApplicationDelegate.swift */,
 				FEDC426C273C794D0065E841 /* ContentView.swift */,
 				FEDC426E273C794F0065E841 /* Assets.xcassets */,
 				FEDC4270273C794F0065E841 /* Preview Content */,
@@ -134,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEDC428B273C794F0065E841 /* Build configuration list for PBXNativeTarget "dicecloudtest" */;
 			buildPhases = (
+				CF02A660040052DA0B237205 /* [CP] Check Pods Manifest.lock */,
 				FEDC4263273C794D0065E841 /* Sources */,
 				FEDC4264273C794D0065E841 /* Frameworks */,
 				FEDC4265273C794D0065E841 /* Resources */,
@@ -143,6 +198,12 @@
 			dependencies = (
 			);
 			name = dicecloudtest;
+			packageProductDependencies = (
+				FEDC4297273C94E90065E841 /* FirebaseDatabase */,
+				FEDC4299273C94E90065E841 /* FirebaseDatabaseSwift-Beta */,
+				FEDC429B273C94E90065E841 /* FirebaseFirestoreSwift-Beta */,
+				FEDC429D273C94E90065E841 /* FirebaseFunctionsCombine-Community */,
+			);
 			productName = dicecloudtest;
 			productReference = FEDC4267273C794D0065E841 /* dicecloudtest.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEDC428E273C794F0065E841 /* Build configuration list for PBXNativeTarget "dicecloudtestTests" */;
 			buildPhases = (
+				6C62C086474346927FCF13F5 /* [CP] Check Pods Manifest.lock */,
 				FEDC4273273C794F0065E841 /* Sources */,
 				FEDC4274273C794F0065E841 /* Frameworks */,
 				FEDC4275273C794F0065E841 /* Resources */,
@@ -169,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEDC4291273C794F0065E841 /* Build configuration list for PBXNativeTarget "dicecloudtestUITests" */;
 			buildPhases = (
+				ADB056AD69CF5A33D2C8EA9A /* [CP] Check Pods Manifest.lock */,
 				FEDC427D273C794F0065E841 /* Sources */,
 				FEDC427E273C794F0065E841 /* Frameworks */,
 				FEDC427F273C794F0065E841 /* Resources */,
@@ -215,6 +278,9 @@
 				Base,
 			);
 			mainGroup = FEDC425E273C794D0065E841;
+			packageReferences = (
+				FEDC4296273C94E90065E841 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FEDC4268273C794D0065E841 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +299,7 @@
 			files = (
 				FEDC4272273C794F0065E841 /* Preview Assets.xcassets in Resources */,
 				FEDC426F273C794F0065E841 /* Assets.xcassets in Resources */,
+				FEDC4295273C90B60065E841 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +319,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C62C086474346927FCF13F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dicecloudtestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADB056AD69CF5A33D2C8EA9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dicecloudtest-dicecloudtestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF02A660040052DA0B237205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dicecloudtest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FEDC4263273C794D0065E841 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +395,7 @@
 			files = (
 				FEDC426D273C794D0065E841 /* ContentView.swift in Sources */,
 				FEDC426B273C794D0065E841 /* dicecloudtestApp.swift in Sources */,
+				FEDC42A0273DF0680065E841 /* UIApplicationDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +550,7 @@
 		};
 		FEDC428C273C794F0065E841 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B82E15BAD2FD31EEE1FE6DE5 /* Pods-dicecloudtest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,6 +579,7 @@
 		};
 		FEDC428D273C794F0065E841 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D95DB4F4FA4C0B19A996DE /* Pods-dicecloudtest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +608,7 @@
 		};
 		FEDC428F273C794F0065E841 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E47C82A23C3A019650507C3 /* Pods-dicecloudtestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +633,7 @@
 		};
 		FEDC4290273C794F0065E841 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558D87BF5AF2749EDB16B8C3 /* Pods-dicecloudtestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +658,7 @@
 		};
 		FEDC4292273C794F0065E841 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 125A99C896D85F8EB1C94A63 /* Pods-dicecloudtest-dicecloudtestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +681,7 @@
 		};
 		FEDC4293273C794F0065E841 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FE793027E927DF1833C74E /* Pods-dicecloudtest-dicecloudtestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -599,6 +742,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FEDC4296273C94E90065E841 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FEDC4297273C94E90065E841 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEDC4296273C94E90065E841 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FEDC4299273C94E90065E841 /* FirebaseDatabaseSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEDC4296273C94E90065E841 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseDatabaseSwift-Beta";
+		};
+		FEDC429B273C94E90065E841 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEDC4296273C94E90065E841 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		FEDC429D273C94E90065E841 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEDC4296273C94E90065E841 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FEDC425F273C794D0065E841 /* Project object */;
 }
