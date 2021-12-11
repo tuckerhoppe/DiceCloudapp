@@ -43,6 +43,8 @@ class roller {
     var fastFood = Di(name: "Fast Food", choices:["McDonalds", "Wendy's", "Taco Bell", "Burger King", "Panda Express", "Del Taco"])
     var coin = Di(name:"coin", choices: ["Heads", "Tails"])
     
+    
+    /*
     var postData = [String]()
     var listoft = ["no", "n"]
     var chores = Di(name: "Chores", choices: ["didnt work", "haha you suck"])
@@ -57,7 +59,7 @@ class roller {
         }
     
     }
-    
+    */
  
     
     
@@ -88,13 +90,27 @@ struct ContentView: View {
     @State var databaseHandle:DatabaseHandle?
     @State var postData = [String]()
     
-    
+    @State var animationAmount = 1.0
+    @State var animationAngle = 0.0
+    @State var currentX = 0.0
+    @State var currentY = 0.0
+    @State var startX = 0.0
+    @State var startY = 0.0
     
     var body: some View {
         VStack {
                     Text(actualRoll)
+                        .frame(width: 120, height: 120)
                         .font(.title)
-                    
+                        .padding(0)
+                        .background(.red)
+                        .foregroundColor(.white)
+                        .clipShape(RoundedRectangle(cornerRadius: 15))
+                        //.scaleEffect(animationAmount)
+                        .rotationEffect(.degrees(animationAngle))
+                        .position(x: currentX ,y: currentY)
+                        .animation(.easeInOut(duration: 1), value: animationAmount)
+                        
             
                     //Text(selectedDi.name)
                     Picker(selection: $selectedDi, label: /*@START_MENU_TOKEN@*/Text("Picker")/*@END_MENU_TOKEN@*/) {
@@ -102,7 +118,7 @@ struct ContentView: View {
                        
                         Text("Room mates").tag(myRoller.roommates)
                         Text("Colors").tag(myRoller.colors)
-                        Text("Chores").tag(myRoller.chores)
+                       // Text("Chores").tag(myRoller.chores)
                         Text("Fast Food").tag(myRoller.fastFood)
                         Text("coin").tag(myRoller.coin)
                         
@@ -111,7 +127,13 @@ struct ContentView: View {
             Button(action: {
                             self.choice = Int.random(in: 1...selectedDi.items)
                             self.actualRoll = selectedDi.choices[choice - 1]
-                //Set database reference
+                animationAmount += 0.3
+                animationAngle += 720
+               
+                //Centerish is 175, 275
+                currentX = Double.random(in:50..<300)
+                currentY = Double.random(in: 50..<450)
+                //Set database referencecl
                 self.ref = Database.database().reference()
                 
                 //retrieve post and listen for changes
@@ -125,7 +147,7 @@ struct ContentView: View {
                     
                     if let actualPost = post {
                     //append the data to postdata array
-                        myRoller.chores.choices.append(actualPost)
+                        //myRoller.chores.choices.append(actualPost)
                         
                     }
                 })
@@ -134,6 +156,8 @@ struct ContentView: View {
                             Text("Roll")
                         }
         }
+        
+        //THis is all from https://www.hackingwithswift.com/books/ios-swiftui/customizing-animations-in-swiftui
     }}
 
 struct ContentView_Previews: PreviewProvider {
