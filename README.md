@@ -1,31 +1,25 @@
 # Overview
 
-I integrated a dice roller app with firebase to get custom created dice options from the cloud.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
+This app is a dice roller. You choose which of the custom dice to use and then press the roll button to roll the dice.
 
-[Software Demo Video](https://youtu.be/Ns9SJF2Ke8c)
 
-# Cloud Database
+Often times I don't know where to go to eat with a group of friends or
 
-I am using realtime firebase. The structure is pretty simple, There is a different branch for each different di.
+[Software Demo Video](https://youtu.be/MApMVUne_3Q)
 
 # Development Environment
 
-I used swift in xcode.
-
-I also used pods and google firebase.
-I also used the SwiftUI and Firebase libraries.
+{Describe the tools that you used to develop the app}
+I used xcode. No other libraries were nesseecary for this stage of the project. It was all written in swift.
 
 {Describe the programming language that you used and any libraries.}
 
 # Useful Websites
-
-{Make a list of websites that you found helpful in this project}
-* [YOU tube tutorial](https://www.youtube.com/watch?v=RMudKhNY0sI)
-* [Firebase website](https://firebase.google.com)
+* [Animating in swift](http://url.link.goes.here)
+* [Apple's documentation](https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions)
 
 # Future Work
-* The integration of the actual realtime database is still very rough. I would like to clean it up.
-* Currently I only have it pulling from the chores dice, not any of the other ones. I would like to get the data for all of the other dice.
-* I would like to add ability to write to the database and customize from the app.
+* I want to add a button near the top to easily be able to add in custom dice.
+* I want to get a cleaner design for the di itself.
+* Clean up the overall design
